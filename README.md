@@ -144,10 +144,10 @@ Follow these steps to build the application onto Jenkins:
 
 9. **Downloading a File from EC2 Instance using `scp`:**
    - Use the `scp` (Secure Copy) command to download a file from your EC2 instance to your local device.
-     # Step 1: Open a Terminal on Your Local Machine
+     - Step 1: Open a Terminal on Your Local Machine
 	   Open a terminal window on your local device. You'll use this terminal to run the `scp` 
            command.
-     # Step 2: Run the `scp` Command
+     - Step 2: Run the `scp` Command
 	   Use the following syntax to copy a file from your EC2 instance to your local device:
 	   ```bash
 	      scp -i /path/to/your-key.pem ubuntu@your-instance-ip:/path/to/remote/file.zip /path/to/local/
