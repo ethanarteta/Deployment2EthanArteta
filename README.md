@@ -25,9 +25,17 @@ Demonstrate your ability to run a Jenkins build and manually deploy to Elastic B
 ## Deployment instructions Link:
 -  [Link to instructions: https://github.com/kura-labs-org/C4_deployment-2/blob/main/Deployment-instructions.md
 
+# Purpose
+- The Purpose of this project is to:
+    - Create a Jenkins Server on EC2
+    - Run a Build using Jenkins
+    - Upload the Application on Elastic Beanstalk
+    - Observe and Use the URL Shortener Web App.
 
+# Issues
+- No issues encountered!
 
-# Creating a Jenkins Server on Amazon EC2 using Jenkins Debian Packages
+# Steps for creating a Jenkins Server on Amazon EC2 using Jenkins Debian Packages
 
 Follow these steps to set up a Jenkins server on an Amazon EC2 instance using Jenkins Debian Packages:
 
@@ -277,3 +285,15 @@ Follow these steps to build the application onto Jenkins:
 
 33. **Successful Deployment:**  
     - Successfully deployed the application onto Elastic Beanstalk.
+
+# Optimization 
+- I would optimize this project by creating a script that would automate all of the more tedious operations such as an installer for jenkins and one that configures everything that is neccessary for this WEB APP to function.
+- I would optimize the jenkins file so that once the file is tested and zip it would send the file directly to elastic beanstalk.
+
+# Diagram and Images
+![image](Documentation_Img/Deployment_2_diagram.png)
+![image](Documentation_Img/Deployment_2_Jenkins.png)
+![image](Documentation_Img/Deployment_2_ElasticBeanstalk.png)
+![image](Documentation_Img/Deployment_2_Instances.png)
+![image](Documentation_Img/Deployment_2_URL_Shortener.png)
+
